@@ -1,6 +1,6 @@
 {
-  "name": "angular2-wizard",
-  "version": "0.3.0",
+  "name": "angular2-wizard-angular-material",
+  "version": "0.1.0",
   "scripts": {
     "build": "ngc -p tsconfig.json",
     "lint": "tslint src/**/*.ts",
@@ -10,11 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maiyaporn/angular2-wizard"
+    "url": "https://github.com/myrnix/angular2-wizard"
   },
   "author": {
-    "name": "Maiyaporn Phanich",
-    "email": "p.maiyaporn@gmail.com"
+    "name": "Myrnix",
+    "email": "info@myrnix.com"
   },
   "keywords": [
     "angular2-wizard",
@@ -22,15 +22,17 @@
     "wizard",
     "wizard-step",
     "angular2",
-    "angular2-component"
+    "angular2-component",
+    "angular-material-2-wizard"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maiyaporn/angular2-wizard/issues"
+    "url": "https://github.com/myrnix/angular2-wizard/issues"
   },
   "main": "./dist/index.js",
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.6"
+    "@angular/cdk": "^2.0.0-beta.8",
+    "@angular/material": "^2.0.0-beta.8"
   },
   "devDependencies": {
     "@angular/common": "^2.3.1",
